@@ -1,0 +1,36 @@
+.mydiv{
+    text-align: justify;
+    margin: auto;
+    background-color: rgb(76, 105, 105); opacity:0.9;
+    padding: 40px;
+    background-position: right top;
+    background-image: url();
+    border-radius: 80px;
+}
+input[type text]{
+    
+}
+
+ul{
+    display: flex;
+    padding: 20px;
+    background-color: lightskyblue;
+    border-radius: 50px;
+}
+li{
+    padding: 30px;
+    list-style: none;
+
+}
+h1{
+text-align: center;
+color: tomato;
+text-decoration: ;
+}
+h1:hover{
+    color: blueviolet;
+}
+body{
+    background-color: powderblue;
+    
+}
