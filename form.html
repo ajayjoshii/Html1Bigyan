@@ -1,67 +1,53 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link rel="stylesheet" href="form.css">
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <script src="form.js"></script>
-    <div class="main-block">
-      <h1>Registration</h1>
-      <form action="/" id="Contactform">
+  
+  <div class="container">
+    <form action="" id="contactForm">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your email..">
+  
+      <label for="number">Phone number</label>
+      <input type="text" id="number" name="number" placeholder="Your phone number..">
+  
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" placeholder="Your address..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="Nepal">Nepal</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="message">Message</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="checkbox" name="checkbox" class="checkbox">
+      <label for="checkbox">Agree to policy</label>
+      <br><br>
+      <input type="checkbox" name="checkbox" class="checkbox">
+      <label for="checkbox">Agree to given terms</label>
+      <br><br>
+      
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
 
-        <hr>
-        <label id="icon" for="name"></label>
-        <input type="text" name="name" id="name" placeholder="Name" />
-        <label id="icon" for="name"></i></label>
-        <input type="text" name="name" id="name" placeholder="Email" />
-        <label id="icon" for="name"></i></label>
-        <input type="password" name="name" id="name" placeholder="Password" />
-        <hr>
-        <div class="gender">
-          <input type="radio" value="none" id="male" name="gender" checked/>
-          <label for="male" class="radio">Male</label>
-          <input type="radio" value="none" id="female" name="gender" />
-          <label for="female" class="radio">Female</label>
-        </div>
-        <hr>
-        <div class="Policy">
-            <p>Do you agree to our policy?</p>
-            <input type="checkbox" value="none" id="Yes" name="Terms" checked/>
-          <label for="Yes" class="checkbox">Yes</label>
-          <input type="checkbox" value="none" id="No" name="Terms" />
-          <label for="No" class="checkbox">No</label>
-        </div>
-        <hr>
-        <div class="Terms and conditions">
-            <p>Do you agree to our terms and conditions?</p>
-            <input type="checkbox" value="none">
-            <label for="agree to privacy" class="checkbox">agree to privacy</label>
-            <br>
-            <input type="checkbox" value="none">
-            <label for="agree to content" class="checkbox">agree to content</label>
-            <br>
-            <input type="checkbox" value="none">
-            <label for="agree to privacy" class="checkbox">agree into Shared</label>
-
-        </div>
-        <hr>
-        <div class="country">
-            Country of origin: <select name="subject" id="subject">
-                <option value="selected" selected="selected">Select country</option>
-                <option value="2" selected="selected">Nepal</option>
-                option
-              </select>
-        </div>
-        <br>
-        <div class="btn">
-
-          <button type="submit" >Submit</button>
-        </div>
-      </form>
-    </div>
-    
+  <script src="main.js"></script>
 </body>
 </html>
